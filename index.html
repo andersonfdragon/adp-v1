@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Altos del palmar</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-altos-del-palmar-96x96.png">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '319626151894815'); 
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+     <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=319626151894815&ev=PageView
+    &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116492812-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116492812-1');
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Inicio contenido del HTML antes del codigo jquery -->
+
+    <!-- HEADER RESPONSIVE-->
+    <header class="hidden-sm hidden-md hidden-lg">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="row col-xs-7 col-sm-3 col-md-2 col-lg-3 center-block">
+            <div class="logo">
+              <a onclick="menu_1_responsive()" href="#altos_del_palmar_responsive" title="Ir a inicio">
+                <img src="images/altos_del_palmar_logo.png" class="img-responsive" alt="Identidad visual Altos del Palmar">
+              </a>
+            </div>
+          </div>
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header col-xs-5 col-sm-9 col-md-10 col-lg-9">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse col-xs-12" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav center-block">
+              <li><a id="estado_activo_1_responsive" class="activo_responsive cerrarMenu" onclick="menu_1_responsive()" href="#altos_del_palmar_responsive">ALTOS DEL PALMAR</a></li>
+              <li><a id="estado_activo_2_responsive" class="cerrarMenu" onclick="menu_2_responsive()" href="#ancla-01_responsive">NUESTRAS CASAS</a></li>
+              <li><a id="estado_activo_3_responsive" class="cerrarMenu" onclick="menu_3_responsive()" href="#ancla-02_responsive">UBICACIÓN</a></li>
+              <li><a id="estado_activo_4_responsive" class="cerrarMenu" onclick="menu_4_responsive()" href="#ancla-03_responsive">PREVENTA</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header> 
+
+    <!-- NAV TABLET-->
+    <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs hidden-md hidden-lg">
+      <div class="container">
+        <div class="row col-xs-5 col-sm-3 col-md-2 col-lg-3 center-block">
+          <div class="logo">
+            <a onclick="menu_1_responsive_tb()" href="#altos_del_palmar_responsive" title="Ir a inicio">
+              <img src="images/altos_del_palmar_logo.png" class="img-responsive" alt="Identidad visual Altos del Palmar">
+            </a>
+          </div>
+        </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header col-xs-7 col-sm-9 col-md-10 col-lg-9">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse col-xs-12" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav center-block">
+            <li><a id="estado_activo_1_responsive_tb" class="activo_responsive_tb" onclick="menu_1_responsive_tb()" href="#altos_del_palmar_responsive">ALTOS DEL PALMAR</a></li>
+            <li><a id="estado_activo_2_responsive_tb" onclick="menu_2_responsive_tb()" href="#ancla-01_responsive">NUESTRAS CASAS</a></li>
+            <li><a id="estado_activo_3_responsive_tb" onclick="menu_3_responsive_tb()" href="#ancla-02_responsive">UBICACIÓN</a></li>
+            <li><a id="estado_activo_4_responsive_tb" onclick="menu_4_responsive_tb()" href="#ancla-03">PREVENTA</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- NAV WEB PC-->
+    <nav class="navbar navbar-inverse pc navbar-fixed-top hidden-xs hidden-sm hidden-lg">
+      <div class="container">
+        <div class="row col-xs-5 col-sm-3 col-md-3 col-lg-3 center-block">
+          <div class="logo">
+            <a onclick="menu_1_responsive_pc()" href="#altos_del_palmar_responsive" title="Ir a inicio">
+              <img src="images/altos_del_palmar_logo.png" class="img-responsive" alt="Identidad visual Altos del Palmar">
+            </a>
+          </div>
+        </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header col-xs-7 col-sm-9 col-md-9 col-lg-9">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse col-xs-12" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav center-block">
+            <li><a id="estado_activo_1_responsive_pc" class="activo_responsive_pc" onclick="menu_1_responsive_pc()" href="#altos_del_palmar_responsive">ALTOS DEL PALMAR</a></li>
+            <li><a id="estado_activo_2_responsive_pc" onclick="menu_2_responsive_pc()" href="#ancla-01_responsive">NUESTRAS CASAS</a></li>
+            <li><a id="estado_activo_3_responsive_pc" onclick="menu_3_responsive_pc()" href="#ancla-02">UBICACIÓN</a></li>
+            <li><a id="estado_activo_4_responsive_pc" onclick="menu_4_responsive_pc()" href="#ancla-03">PREVENTA</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- NAV WEB FULL HD-->
+    <nav class="navbar navbar-inverse pc-hd navbar-fixed-top hidden-xs hidden-sm hidden-md">
+      <div class="container">
+        <div class="row col-xs-5 col-sm-3 col-md-2 col-lg-3 center-block">
+          <div class="logo">
+            <a onclick="menu_1()" href="#altos_del_palmar" title="Ir a inicio">
+              <img src="images/altos_del_palmar_logo.png" class="img-responsive" alt="Identidad visual Altos del Palmar">
+            </a>
+          </div>
+        </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header col-xs-7 col-sm-9 col-md-10 col-lg-9">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse col-xs-12" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav center-block">
+            <li><a id="estado_activo_1" class="activo" onclick="menu_1()" href="#altos_del_palmar">ALTOS DEL PALMAR</a></li>
+            <li><a id="estado_activo_2" onclick="menu_2()" href="#ancla-01">NUESTRAS CASAS</a></li>
+            <li><a id="estado_activo_3" onclick="menu_3()" href="#ancla-02">UBICACIÓN</a></li>
+            <li><a id="estado_activo_4" onclick="menu_4()" href="#ancla-03">PREVENTA</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="altos_del_palmar"></div>
+
+    <!-- SLIDER WEB-->
+    <div class="slider hidden-xs hidden-sm hidden-md">
+      <div class="container-fluid">
+        <div class="row sin-padding center-block">
+
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-pause="null" data-interval="4000">
+            <div class="carousel-inner" role="listbox">
+
+              <div class="item active">
+                <img src="images/casa-altos-del-palmar-01.jpg" class="img-responsive center-block" alt="casa-altos-del-palmar-01">
+              </div>
+
+              <div class="item">
+                <img src="images/casa-altos-del-palmar-02.jpg" class="img-responsive center-block" alt="casa-altos-del-palmar-02">
+              </div>
+
+            </div>
+          </div>
+
+          <img src="images/casas-campestres.png" class="img-responsive info-slider-web center-block" alt="casas-campestres">
+
+        </div>
+        <div id="ancla-01"></div>
+      </div>
+
+    </div>
+
+
+
+    <!-- SLIDER RESPONSIVE-->
+    <div id="altos_del_palmar_responsive" class="slider_responsive hidden-lg">
+      <div class="container-fluid">
+        <div class="row sin-padding center-block">
+
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-pause="null" data-interval="4000">
+            <div class="carousel-inner" role="listbox">
+
+              <div class="item active">
+                <img src="images/casa-altos-del-palmar-01.jpg" class="img-responsive center-block" alt="casa-altos-del-palmar-01">
+              </div>
+
+              <div class="item">
+                <img src="images/casa-altos-del-palmar-02.jpg" class="img-responsive center-block" alt="casa-altos-del-palmar-02">
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container hidden-lg">
+
+        <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-5 center-block">
+          <img src="images/casas-campestres.png" class="img-responsive info-slider-responsive center-block" alt="casas-campestres">
+          <div id="ancla-01_responsive"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- INFO CONDOMINIO-->
+    <div class="seccion_blanca_01">
+      <div class="container">
+        <div class="row col-xs-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-2">
+          <h3 class="texto_arsenal_regular_36">Espacios<br>para <span class="texto_arsenal_bold_36">Deleitarse</span></h3>
+          <h1 class="texto_roboto_regular_15">Constructora Alianza presenta a usted Altos del Palmar, un proyecto diseñado para una vida de confort y tranquilidad.<br><br>Nuestro condominio cuenta con 51 casas que le permitirán disfrutar de la comodidad que brindan espacios amplios con acabados premium.</h1>
+        </div>
+
+        <div class="row col-xs-12 col-md-5 col-lg-4 col-md-offset-2 col-md-offset-1">
+          <h3 class="texto_arsenal_bold_25_azul">Lotes desde<br>408m² hasta 665 m²</h3>
+        </div>
+
+
+        <div class="row col-xs-12 col-md-5 col-lg-4 col-md-offset-2 col-md-offset-1">
+          <h3 class="texto_arsenal_bold_25_azul_2">Casas con un Área<br>construida de 208 m²</h3>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- BOTON CALL TO ACTION WEB-->
+    <div class="seccion_call_to_action hidden-xs hidden-sm">
+      <div class="container">
+        <div class="row col-xs-12 col-md-4 col-lg-3 col-md-offset-1 col-lg-offset-2">
+          <div class="borde-blanco">
+            <div class="relleno-blanco">
+              <h3 class="texto_arsenal_regular_40">OFERTA<br><span class="texto_arsenal_regular_22">DE PREVENTA</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row col-xs-12 col-md-6 col-lg-6 col-md-offset-1 col-lg-offset-1">
+          <h3 class="texto_arsenal_bold_italic_30"><a class="texto_arsenal_bold_italic_30" href="#ancla-03">Haga click aquí</a> <span class="texto_arsenal_italic_30">y conozca<br>los beneficios de invertir primero.</span></h3>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- BOTON CALL TO ACTION REPONSIVE-->
+    <div class="seccion_call_to_action_responsive hidden-md hidden-lg">
+      <div class="container">
+        <div class="row col-xs-12 center-block">
+          <div class="borde-blanco">
+            <div class="relleno-blanco">
+              <h2 class="texto_arsenal_regular_40">OFERTA<br><span class="texto_arsenal_regular_22">DE PREVENTA</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row col-xs-12 col-md-6 col-lg-9 center-block">
+          <h3 class="texto_arsenal_bold_italic_30_responsive"><a class="texto_arsenal_bold_italic_30_responsive" href="#ancla-03_responsive">Haga click aquí</a> <span class="texto_arsenal_italic_30">y conozca<br>los beneficios de invertir primero.</span></h3>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- INFO CASA-->
+    <div class="seccion_blanca_02">
+      <div class="container">
+        <div class="row col-xs-12 col-md-8 center-block">
+          <img src="images/casa-altos-del-palmar-planta-01.jpg" class="img-responsive margin-bottom center-block" alt="casa-altos-del-palmar-planta-01">
+        </div>
+
+        <div class="row col-xs-12 col-md-4 center-block">
+          <h3 class="texto_arsenal_bold_30_dorado">Primera Planta</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Amplia sala comedor.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Cocina con isla central.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Zona de lavandería.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Baño social.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Porche (comedor auxiliar).</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Parqueaderos cubiertos.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Zona para piscina privada.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Deck de piscina (Opcional).</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- BBQ de piedra (Opcional).</h3>
+        </div>
+
+        <div class="row fondo-texto-04 col-xs-12 col-md-4 center-block">
+          <h3 class="texto_arsenal_bold_azul_21">2 Parqueaderos<br>Cubiertos</h3>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="seccion_blanca_02">
+      <div class="container">
+        <div class="row col-xs-12 col-md-8 center-block">
+          <img src="images/casa-altos-del-palmar-planta-02.jpg" class="img-responsive margin-bottom center-block" alt="casa-altos-del-palmar-planta-02">
+        </div>
+
+        <div class="row col-xs-12 col-md-4 center-block">
+          <h3 class="texto_arsenal_bold_30_dorado">Segunda Planta</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Alcoba principal, con baño privado, balcón y vestier.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Alcoba 2, con baño privado, balcón y vestier.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Alcoba 3, con baño privado.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Hall de alcobas.</h3>
+          <h3 class="texto_roboto_regular_15_sin_margin">- Balcón social con vista a la piscina.</h3>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SECCION 03 WEB-->
+    <div class="seccion_03 hidden-xs hidden-sm">
+      <div class="container">
+        <div class="borde-dorado-seccion-03">
+          <div class="row col-xs-12 col-md-12 center-block">
+            <h3 class="texto_arsenal_bold_blanco_30">Espacios diseñados para compartir con quienes amas.</h3>
+          </div>
+
+          <div class="row col-xs-6 col-md-4 center-block">
+            <img src="images/icono-parque-acuatico.png" class="img-responsive center-block" alt="icono-parque-acuatico">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Parque Acuático</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Parque<br>Acuático</h3>
+          </div>
+
+          <div class="row col-xs-6 col-md-4 center-block">
+            <img src="images/icono-cancha-multiple.png" class="img-responsive center-block" alt="icono-cancha-multiple">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Cancha Múltiple</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Cancha<br>Múltiple</h3>
+          </div>
+
+          <div class="row col-xs-6 col-md-4 center-block">
+            <img src="images/icono-senderos-ecologicos.png" class="img-responsive center-block" alt="icono-senderos-ecologicos">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Senderos Ecológicos</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Senderos<br>Ecológicos</h3>
+          </div>
+
+          <!--
+          <div class="row col-xs-6 col-md-4 center-block">
+            <img src="images/icono-zona-social.png" class="img-responsive center-block" alt="icono-zona-social">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Zona Social</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Zona<br>Social</h3>
+          </div>
+          -->
+
+          <div class="row col-xs-6 col-md-4 col-md-offset-2">
+            <img src="images/icono-piscina-privada.png" class="img-responsive center-block" alt="icono-piscina-privada">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Piscina Privada</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Piscina<br>Privada</h3>
+          </div>
+
+          <div class="row col-xs-6 col-md-4 center-block">
+            <img src="images/icono-cancha-de-tenis.png" class="img-responsive center-block" alt="icono-cancha-de-tenis">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Cancha de Tenis</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Cancha de<br>Tenis</h3>
+            <div id="ancla-02"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCION 03 RESPONSIVE-->
+    <div class="seccion_03_responsive hidden-md hidden-lg">
+      <div class="container">
+        <div class="borde-dorado-seccion-03">
+          <div class="row col-xs-12 col-md-12 center-block">
+            <h3 class="texto_arsenal_bold_blanco_30">Espacios diseñados para compartir con quienes amas.</h3>
+          </div>
+
+          <div class="row col-xs-6 center-block">
+            <img src="images/icono-parque-acuatico.png" class="img-responsive center-block" alt="icono-parque-acuatico">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Parque Acuático</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Parque<br>Acuático</h3>
+          </div>
+
+          <div class="row col-xs-6 center-block">
+            <img src="images/icono-cancha-multiple.png" class="img-responsive center-block" alt="icono-cancha-multiple">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Cancha Múltiple</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Cancha<br>Múltiple</h3>
+          </div>
+
+          <div class="row col-xs-6 col-md-4 center-block">
+            <img src="images/icono-senderos-ecologicos.png" class="img-responsive center-block" alt="icono-senderos-ecologicos">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Senderos Ecológicos</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Senderos<br>Ecológicos</h3>
+          </div>
+
+          <!--
+          <div class="row col-xs-6 col-md-4 center-block">
+            <img src="images/icono-zona-social.png" class="img-responsive center-block" alt="icono-zona-social">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Zona Social</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Zona<br>Social</h3>
+          </div>
+          -->
+
+          <div class="row col-xs-6 center-block">
+            <img src="images/icono-piscina-privada.png" class="img-responsive center-block" alt="icono-piscina-privada">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Piscina Privada</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Piscina<br>Privada</h3>
+          </div>
+
+          <div class="row col-xs-6 center-block">
+            <img src="images/icono-cancha-de-tenis.png" class="img-responsive center-block" alt="icono-cancha-de-tenis">
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-xs">Cancha de Tenis</h3>
+            <h3 class="texto_arsenal_bold_blanco_15 hidden-sm hidden-md hidden-lg">Cancha de<br>Tenis</h3>
+            <div id="ancla-02_responsive"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- SECCION UBICACION-->
+    <div class="seccion_blanca_04">
+      <div class="container">
+        <div class="row col-xs-12 col-md-5 center-block">
+          <h3 class="texto_arsenal_bold_36_ubicacion">Dese el gusto de escapar<br><span class="texto_arsenal_regular_36_ubicacion">cada fin de semana.</span></h3>
+          <h3 class="texto_roboto_regular_15_sin_margin_ubicacion">Ubicado en el Km 6, vía Melgar - Carmen de Ápicalá, en la zona de condominios más exclusiva de melgar. Junto al representativo condominio hacienda la estancia.<br><br>Esta ubicación ha sido pensada estratégicamente para brindarle la privacidad y tranquilidad que usted necesita.</h3>
+          
+          <!--<h3 class="texto_arsenal_bold_dorado_15">Planee su ruta con<br><br>
+            <a href="https://play.google.com/store/apps/details?id=com.waze&hl=es_419"><img src="images/icono-waze.png" class="margin-img-rutas" alt="icono-wayze"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps"><img src="images/icono-google-maps.png" class="margin-img-rutas" alt="icono-google-maps"></a>
+          </h3>-->
+        </div>
+
+        <div class="row col-xs-12 col-md-6 col-md-offset-1">
+          <div class="embed-responsive google-maps embed-responsive-16by9">
+            <iframe class="embed-responsive-item center-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.160274287946!2d-74.68494658523952!3d4.188867196954643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3edecc410b6213%3A0x8d95fc267d88da4b!2sAltos+del+Palmar+Condominio+Campestre!5e0!3m2!1ses-419!2sco!4v1521838955620"></iframe>
+          </div>
+          <div id="ancla-03"></div>
+          <div id="ancla-03_responsive"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SECCION CONTACTO-->
+    <div class="seccion_blanca_05">
+      <div class="container">
+
+        <div class="row col-xs-12 col-md-5 col-lg-5 center-block">
+          <img src="images/oferta-preventa-altos-del-palmar.png" class="img-responsive margin-bottom center-block" alt="oferta-preventa-altos-del-palmar">
+        </div>
+
+        <div class="row col-xs-12 col-md-4 col-md-offset-2 col-lg-offset-2">
+          <h4 class="texto_arsenal_regular_azul_21">Está a un paso de realizar su próxima</h4>
+          <h4 class="texto_arsenal_bold_25_border_bottom">inversión inteligente</h4>
+          <h4 class="texto_roboto_regular_15_negro">Escriba sus datos para contarle más acerca de Altos del Palmar. Nosotros nos pondremos en contacto.</h4>
+        </div>
+
+        <div class="row col-xs-12 col-md-4 col-md-offset-2 col-lg-offset-2">
+          <form role="form" id="contactForm" data-toggle="validator" class="shake">
+
+            <div class="form-group">
+              <!--<label for="first_name"></label>-->
+              <input type="text" class="form-control" id="first_name" placeholder="Escriba su nombre y apellido" required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group">
+              <!--<label for="telephone"></label>-->
+              <input type="text" class="form-control" id="telephone" placeholder="Escriba su número celular" required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group">
+              <!--<label for="email"></label>-->
+              <input type="email" class="form-control" id="email" placeholder="Escriba su correo electrónico" required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="margin-top-boton"></div>
+
+            <button type="submit" id="form-submit" class="btn btn-warning btn-lg center-block">Enviar</button>
+
+            <div id="msgSubmit" class="h4 text-center hidden"></div>
+            <div class="clearfix"></div>
+            <div class="margin-bottom-boton"></div>
+          </form>
+        </div>
+
+        <div class="row col-xs-12 col-md-4 col-md-offset-7 col-lg-offset-2">
+          <h4 class="texto_roboto_regular_15_padding_bottom">Reciba información a través de Whatsapp</h4>
+          <h4 class="texto_lato_regular_21"><a class="texto_lato_regular_21" href="https://api.whatsapp.com/send?phone=573176674066"><img src="images/icono-whatsapp-dorado-01.png" class="margin-img" alt="icono-whatsapp-dorado">317 667 40 66</a></h4>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- SECCION FOOTER-->
+    <footer>
+      <div class="container">
+        <div class="row col-xs-12 col-md-4 center-block">
+          <img src="images/altos_del_palmar_logo_footer.png" class="img-responsive margin-bottom-v-align center-block" alt="Identidad visual Altos del Palmar">
+        </div>
+
+        <div class="row bordes-laterales hidden-xs hidden-sm col-sm-12 col-md-4 col-lg-4 center-block">
+          <h4 class="texto_arsenal_regular_16_blanco">Deje un mensaje pronto nos<br>pondremos en contacto</h4>
+          <h4 class="texto_lato_regular_16"><a class="texto_lato_regular_16" href="https://api.whatsapp.com/send?phone=573176674066"><img src="images/icono-whatsapp-dorado-02.png" class="margin-img" alt="icono-whatsapp-dorado">317 667 40 66</a></h4>
+          <h4 class="texto_arsenal_bold_16_blanco">ventas@constructora-alianza.com</h4>
+        </div>
+
+        <div class="row hidden-md hidden-lg col-xs-12 center-block">
+          <h4 class="texto_arsenal_regular_16_blanco">Deje un mensaje pronto nos<br>pondremos en contacto</h4>
+          <h4 class="texto_lato_regular_16"><a class="texto_lato_regular_16" href="https://api.whatsapp.com/send?phone=573176674066"><img src="images/icono-whatsapp-dorado-02.png" class="margin-img" alt="icono-whatsapp-dorado">317 667 40 66</a></h4>
+          <h4 class="texto_arsenal_bold_16_blanco">ventas@constructora-alianza.com</h4>
+        </div>
+
+        <div class="row col-lg-3 col-lg-offset-1 hidden-xs hidden-sm hidden-md">
+          <h4 class="texto_arsenal_regular_17_blanco_margin"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_1" onclick="menu_1()" href="#altos_del_palmar">ALTOS DEL PALMAR</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_2" onclick="menu_2()" href="#ancla-01">NUESTRAS CASAS</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_3" onclick="menu_3()" href="#ancla-02">UBICACIÓN</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_4" onclick="menu_4()" href="#ancla-03">PREVENTA</a></h4>
+        </div>
+
+        <div class="row col-md-3 col-md-offset-1 hidden-xs hidden-sm hidden-lg">
+          <h4 class="texto_arsenal_regular_17_blanco_margin"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_1_responsive_pc" onclick="menu_1_responsive_pc()" href="#altos_del_palmar_responsive">ALTOS DEL PALMAR</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_2_responsive_pc" onclick="menu_2_responsive_pc()" href="#ancla-01_responsive">NUESTRAS CASAS</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_3_responsive_pc" onclick="menu_3_responsive_pc()" href="#ancla-02_responsive">UBICACIÓN</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_4_responsive_pc" onclick="menu_4_responsive_pc()" href="#ancla-03_responsive">PREVENTA</a></h4>
+        </div>
+
+        <div class="row col-sm-8 col-sm-offset-4 hidden-xs hidden-md hidden-lg">
+          <h4 class="texto_arsenal_regular_17_blanco_margin"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_1_responsive_tb" onclick="menu_1_responsive_tb()" href="#altos_del_palmar_responsive">ALTOS DEL PALMAR</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_2_responsive_tb" onclick="menu_2_responsive_tb()" href="#ancla-01_responsive">NUESTRAS CASAS</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_3_responsive_tb" onclick="menu_3_responsive_tb()" href="#ancla-02_responsive">UBICACIÓN</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_4_responsive_tb" onclick="menu_4_responsive_tb()" href="#ancla-03_responsive">PREVENTA</a></h4>
+        </div>
+
+        <div class="row col-xs-9 col-xs-offset-3 hidden-sm hidden-md hidden-lg">
+          <h4 class="texto_arsenal_regular_17_blanco_margin"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_1_responsive" onclick="menu_1_responsive()" href="#altos_del_palmar_responsive">ALTOS DEL PALMAR</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_2_responsive" onclick="menu_2_responsive()" href="#ancla-01_responsive">NUESTRAS CASAS</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_3_responsive" onclick="menu_3_responsive()" href="#ancla-02_responsive">UBICACIÓN</a></h4>
+          <h4 class="texto_arsenal_regular_17_blanco"><a class="texto_arsenal_regular_17_blanco" id="estado_activo_4_responsive" onclick="menu_4_responsive()" href="#ancla-03_responsive">PREVENTA</a></h4>
+        </div>
+
+      </div>
+    </footer>
+
+    <div class="seccion_07">
+      <div class="container">
+
+        <div class="row col-xs-12 col-md-6 col-lg-8 center-block">
+          <h4 class="texto_arsenal_regular_11_blanco hidden-xs hidden-sm">* Condiciones y restricciones: El bono de descuento de $20`000.000 será entregado a las cinco (5) primeras personas que hagan la separación y pago de la cuota inicial de una casa en el Condominio Campestre Altos del Palmar, en un período máximo de seis (6) meses calendario a través de Constructora Alianza Proyectos Inmobiliarios LTDA. El bono no es redimible en dinero. Bono aplicable como descuento al precio de lista de precios de Febrero de 2018. Descuento de 15% en obras civiles adicionales otorgado sólamente para el inmueble adquirido dentro del Condominio Campestre Altos del Palmar. Descuento de 20% en obras de carpintería adicionales otorgado sólamente para el inmueble adquirido dentro del Condominio Campestre Altos del Palmar. Descuentos podrán ser acumulables.</h4>
+          <h4 class="texto_arsenal_regular_11_blanco_responsive hidden-md hidden-lg">* Condiciones y restricciones: El bono de descuento de $20`000.000 será entregado a las cinco (5) primeras personas que hagan la separación y pago de la cuota inicial de una casa en el Condominio Campestre Altos del Palmar, en un período máximo de seis (6) meses calendario a través de Constructora Alianza Proyectos Inmobiliarios LTDA. El bono no es redimible en dinero. Bono aplicable como descuento al precio de lista de precios de Febrero de 2018. Descuento de 15% en obras civiles adicionales otorgado sólamente para el inmueble adquirido dentro del Condominio Campestre Altos del Palmar. Descuento de 20% en obras de carpintería adicionales otorgado sólamente para el inmueble adquirido dentro del Condominio Campestre Altos del Palmar. Descuentos podrán ser acumulables.</h4>
+        </div>
+
+        <div class="row col-xs-6 col-md-3 col-lg-2 center-block">
+          <h4 class="texto_arsenal_regular_15_dorado">Un proyecto de</h4>
+        </div>
+
+        <div class="row col-xs-6 col-md-3 col-lg-2 center-block">
+          <a href="http://constructora-alianza.com"><img src="images/constructora-alianza.png" class="img-responsive margin-img-left" alt="constructura-alianza-identidad-visual"></a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Fin contenido del HTML antes del codigo jquery -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/validator.min.js"></script>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+
+  </body>
+</html>
